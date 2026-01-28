@@ -22,6 +22,7 @@
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
+- [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -332,7 +333,33 @@ We welcome contributions! Here's how to help:
 
 ---
 
-## 🗺️ Roadmap
+## � Deployment
+
+### Deploy to Vercel (Recommended)
+
+**One-Click Deployment:**
+1. Go to [Vercel Dashboard](https://vercel.com/dashboard)
+2. Click "Add New Project"
+3. Select your GitHub repository
+4. Add environment variable: `VITE_GEMINI_API_KEY`
+5. Click "Deploy"
+
+**Using Vercel CLI:**
+```bash
+npm install -g vercel
+vercel --prod
+```
+
+### Environment Setup
+- Images are served from `public/reference/` directory
+- API key is securely stored as environment variable
+- Build optimized for production with Vite
+
+**For detailed deployment instructions, see [DEPLOYMENT.md](DEPLOYMENT.md)**
+
+---
+
+## �🗺️ Roadmap
 
 - [ ] Mobile app versions (iOS/Android)
 - [ ] Offline gesture recognition
@@ -394,5 +421,6 @@ For questions, issues, or suggestions:
 [⬆ Back to top](#-signbridge-ai)
 
 </div>
-#   b i d i r e c t i o n a l - s i g n - t r a n s l a t o r  
+#   b i d i r e c t i o n a l - s i g n - t r a n s l a t o r 
+ 
  
