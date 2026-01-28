@@ -3,11 +3,6 @@ import { Hand, Type, FileVideo } from 'lucide-react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import SignToText from './SignToText';
 import TextToSign from './TextToSign';
-import React, { useState } from 'react';
-import { Hand, Type, FileVideo } from 'lucide-react';
-import { SpeedInsights } from '@vercel/speed-insights/react';
-import SignToText from './SignToText';
-import TextToSign from './TextToSign';
 
 @@ -90,6 +91,7 @@ const App: React.FC = () => {
 <span>SECURE CONNECTION</span>
