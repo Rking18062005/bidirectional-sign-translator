@@ -394,3 +394,5 @@ For questions, issues, or suggestions:
 [⬆ Back to top](#-signbridge-ai)
 
 </div>
+#   b i d i r e c t i o n a l - s i g n - t r a n s l a t o r  
+ 
